@@ -8,6 +8,8 @@ packer {
   }
 }
 
+#block data
+
 data "amazon-ami" "base_image" {
   filters = {
     name                = "rex-devsecops-*" # Adaptez ce filtre
