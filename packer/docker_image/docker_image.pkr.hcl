@@ -8,7 +8,7 @@ packer {
   }
 }
 
-#block data
+# block data
 
 data "amazon-ami" "base_image" {
   filters = {
